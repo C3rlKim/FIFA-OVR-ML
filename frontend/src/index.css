@@ -1,0 +1,86 @@
+body{
+  margin:0;
+}
+#bgimg{
+  margin: 40px;
+  display: inline-block;
+}
+#bgimg img{
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px gray;
+}
+#submitform{
+  width: 500px;
+  height: 750px;
+  display: inline-block;
+  position: relative;
+  bottom: 80px;
+}
+#submitform h1{
+  margin-left: 10px;
+}
+#submitform input{
+  width:200px;
+  height:30px;
+  outline-style: none;
+  font-size: 15px;
+  padding:5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+#submitform input[type="submit"]{
+  background-color: #3CBC8D;
+  border: 1px solid #3CBC8D;
+  width:212px;
+  height:42px;
+}
+#submitform input[type="submit"]:hover{
+  cursor: pointer;
+  background-color:#309671;
+  border-color: #309671;
+}
+@keyframes spin{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+#balllogo img{
+  animation: spin 8s linear infinite;
+  height:100px;
+  width:100px;
+  position: relative;;
+  left:401px;
+  bottom:504px;
+}
+#aboveball{
+  height: 900px;
+}
+#card{
+  width: 400px;
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+}
+#cardname{
+ color: #513721;
+ position: relative;
+ right: 195px;
+ bottom:270px;
+ font-size: 40px;
+ display: inline-block;
+}
+#cardoverall{
+  font-size: 120px;
+  position: relative;
+  right:300px;
+  bottom: 430px;
+  display: inline-block;
+}
+@keyframes cardappear {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+#scorereveal{
+  animation: cardappear 1s linear;
+  display: inline-block;
+}
