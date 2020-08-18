@@ -11,4 +11,8 @@ cd ml
 Fifa.html
 ```
 
+### Technologies
+numpy,pandas,matplotlib.pyplot,seaborn,django,django REST framework, React
 
+### Data Source
+https://www.kaggle.com/stefanoleone992/fifa-20-complete-player-dataset
