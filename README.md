@@ -29,15 +29,16 @@ pip install virtualenv
 virtualenv env
 cd env/Scripts
 activate
+# go to project root directory
 pip install -r requirements.txt
 ```
 5. Need to have Node js installed
-6. Run Backend
+6. Run Backend (start from project root)
 ```
 cd backend/
 python manage.py runserver
 ```
-7. Run Frontend
+7. Run Frontend (start from project root)
 ```
 cd frontend/
 npm start
