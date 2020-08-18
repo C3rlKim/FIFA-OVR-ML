@@ -11,7 +11,7 @@ cd ml
 Fifa.html
 ```
 ### Demo
-https://youtu.be/embed/CmVvzBcpC4E
+https://youtu.be/CmVvzBcpC4E
 
 ### Technologies
 numpy,pandas,matplotlib.pyplot,seaborn,django,django REST framework, React
