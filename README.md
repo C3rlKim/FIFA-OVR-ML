@@ -10,6 +10,8 @@ under "ml" directory.
 cd ml
 Fifa.html
 ```
+### Demo
+https://youtu.be/embed/CmVvzBcpC4E
 
 ### Technologies
 numpy,pandas,matplotlib.pyplot,seaborn,django,django REST framework, React
