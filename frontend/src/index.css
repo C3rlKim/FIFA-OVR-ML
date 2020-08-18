@@ -26,12 +26,12 @@ body{
   font-size: 15px;
   padding:5px;
   margin: 10px;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 7px;
 }
 #submitform input[type="submit"]{
   background-color: #3CBC8D;
-  border: 1px solid #3CBC8D;
+  border: 2px solid #3CBC8D;
   width:212px;
   height:42px;
 }
